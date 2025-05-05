@@ -8,5 +8,8 @@ int main ()
     int b = 6;
     int y = 20;
     int *c = &a;
-    
+    cout << "alamat memori : " << c << endl;
+    cout << "nilai dari c : " << *c << endl;
+    c = &y;
+   
 }
