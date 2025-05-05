@@ -18,6 +18,9 @@ int main()
     mhs->shownim ();
 
     delete mhs;
+    return 0;
+}
+};
   
    
 
