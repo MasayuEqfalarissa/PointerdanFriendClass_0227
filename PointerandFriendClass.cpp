@@ -14,4 +14,10 @@ int main ()
     cout << "alamat memori : " << c << endl;
     cout << "nilai dari c : " << *c << endl;
    
+    //reference 
+    int &d = b;
+    cout << "nilai " << d << endl;
+    cout << "reference "<< &d << endl;
+
+   
 }
