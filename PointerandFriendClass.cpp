@@ -19,5 +19,7 @@ int main ()
     cout << "nilai " << d << endl;
     cout << "reference "<< &d << endl;
 
+    int f = 5;
+    int g = f;
    
 }
