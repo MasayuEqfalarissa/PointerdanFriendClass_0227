@@ -11,5 +11,7 @@ int main ()
     cout << "alamat memori : " << c << endl;
     cout << "nilai dari c : " << *c << endl;
     c = &y;
+    cout << "alamat memori : " << c << endl;
+    cout << "nilai dari c : " << *c << endl;
    
 }
