@@ -4,10 +4,21 @@ using namespace std;
 class siswa;
 class orang 
 {
-    private :
+private :
     string nama;
 
-    public :
+public :
     void setnama(string pnama);
     friend class siswa;
+};
+
+class siswa 
+{
+    private:
+    int id;
+
+    public :
+    void setid(int pid);
+    void displayall(orang &a);
+
 };
